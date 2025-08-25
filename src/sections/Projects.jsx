@@ -57,27 +57,31 @@ function Projects() {
         {/*   TODO: Add later */}
         {/* Project 3 */}
         <div>
-          <h4>To be added soon...</h4>
+          <h4 className="font-semibold">Fast Pizza Co.</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit, minima aut? Consequatur, reprehenderit neque. Ex
-            magnam quidem pariatur doloremque! Accusamus.
+            A Pizza Delivery application using React for building reusable UI
+            components and Redux for predictable state management
           </p>
-          {/* <button className="mr-2">Live</button>
-          <button>Code</button> */}
+          <a
+            href="https://github.com/connor1908/FastPizzaCo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Code</button>
+          </a>
         </div>
 
         {/* Project 4 */}
-        <div>
+        {/* <div>
           <h4>To be added soon...</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Reprehenderit, minima aut? Consequatur, reprehenderit neque. Ex
             magnam quidem pariatur doloremque! Accusamus.
           </p>
-          {/* <button className="mr-2">Live</button>
-          <button>Code</button> */}
-        </div>
+          <button className="mr-2">Live</button>
+          <button>Code</button>
+        </div> */}
       </div>
     </section>
   );
